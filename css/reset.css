@@ -31,3 +31,7 @@ input,button,textarea,select{
 a,a:link,a:visity,a:active{
     text-decoration: none;
 }
+
+.newred{
+    color:pink;
+}
