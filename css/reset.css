@@ -1,0 +1,33 @@
+body,
+ol,
+ul,
+li,
+input,
+button,
+header,
+footer,
+aside,
+main,
+section,
+article,
+figure,
+figcaption,
+dl,dt,dd,nav,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+    /* 标准盒模型（border/padding）不在宽高之内 */
+    /* box-sizing:content-box; */
+    /* 怪异盒模型（border/padding）不在宽高之内 */
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+input,button,textarea,select{
+    outline: none;
+}
+a,a:link,a:visity,a:active{
+    text-decoration: none;
+}
