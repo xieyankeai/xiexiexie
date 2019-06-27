@@ -32,7 +32,13 @@ a,a:link,a:visity,a:active{
     text-decoration: none;
 }
 
+
 .oldred{
     color:red
+}
+
+
+.newred{
+    color:pink;
 }
 
